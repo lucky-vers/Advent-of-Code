@@ -21,7 +21,7 @@ for line in file.readlines():
             nums.append(char)
             print(char)
 
-        for i in range(3, 6, 1):
+        for i in range(3, 6):
             if line[index:index + i] in words:
                 number_in_words = line[index:index + i]
                 number = str(words.index(number_in_words) + 1)
@@ -35,3 +35,4 @@ for line in file.readlines():
 
 print(sum(sums))
 
+file.close()
