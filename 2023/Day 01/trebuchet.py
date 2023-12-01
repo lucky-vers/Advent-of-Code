@@ -9,7 +9,6 @@ for line in file.readlines():
     for index, char in enumerate(line):
         if char in '0123456789':
             nums.append(char)
-            print(char)
 
         for i in range(3, 6):
             if line[index:index + i] in words:
