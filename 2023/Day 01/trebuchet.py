@@ -2,17 +2,7 @@ file = open("./input", "r")
 
 sums = []
 
-words = [
-    "one",
-    "two",
-    "three",
-    "four",
-    "five",
-    "six",
-    "seven",
-    "eight",
-    "nine",
-]
+words = [ "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", ]
 
 for line in file.readlines():
     nums = []
