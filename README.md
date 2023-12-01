@@ -5,7 +5,7 @@ A repository to store my attempts through the various years' **Advent of Code** 
 | Year | Completed |
 |------|-----------|
 | 2023 | 2         |
-| 2022 | 0         |
+| 2022 | 2         |
 | 2021 | 0         |
 | 2020 | 0         |
 | 2019 | 0         |
